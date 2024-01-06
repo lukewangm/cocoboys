@@ -3,16 +3,48 @@ layout: page
 title: About
 permalink: /about/
 ---
+<style type="text/css" media="screen">
+    
+    h1{
+        text-align: center;
+        border: 1.5px solid black;
+        font-style: italic;
+    }
+    
+    .about-img-container {
+        display: flex;
+        position: relative;
+        color: white;
+        width: 50%;
+        left: 50%;
+    }
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+    .description {
+        white-space:pre-wrap;
+        display: block;
+        position: absolute;
+    }
+    
+    .container {
+        padding: 1rem 1rem 1rem 1rem;
+        border: 1.5px solid black;
+        margin: 1rem 1rem 1rem 1rem;
+    }
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+</style>
 
-
-[jekyll-organization]: https://github.com/jekyll
+<div class="container">
+    <div class='description'>
+        <p>
+        Cocoboys description..
+        ..
+        ..
+        ..
+        ..
+        </p>
+    </div>
+    <div class="about-img-container" >
+        <img src="/assets/images/About_me.jpg"/>
+    </div>
+</div>

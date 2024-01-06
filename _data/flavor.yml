@@ -1,0 +1,21 @@
+
+- name: Bread swirl
+  ingredients: bread, coconut, etc
+  description: >- # this means to ignore newlines until "baseurl:"
+    This flavor is blah blah
+  photo_url: assets/images/bread_swirl.JPG
+
+- name: Chocolate 
+  ingredients: Chocolate, coconut, etc
+  description: >- # this means to ignore newlines until "baseurl:"
+    This flavor is chocolate, There is a bunch of random text. This is to make sure 
+    that the text does not overflow into the image beside it.
+  photo_url: assets/images/bread_swirl.JPG
+
+- name: Vanilla swirl
+  ingredients: Vanilla, coconut, etc
+  description: >- # this means to ignore newlines until "baseurl:"
+    This flavor is blah blah
+  photo_url: assets/images/bread_swirl.JPG
+
+

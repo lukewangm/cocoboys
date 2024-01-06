@@ -1,42 +1,41 @@
-/* Container holding the image and the text */
+.post-list-heading{
+  text-align: center;
+}
+
+.about-img-container{
+  width: 70%;
+}
+
+.container_image {
+  position: relative;
+  color: white;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 100%;
+
+}
+
+/* Centered text */
+.centered {
+  /* overflow: hidden; */
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px
+}
+
+.site-nav {
+  position: fixed;
+}
+
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1.5px solid black;
+  margin: 1rem 1rem 1rem 1rem;
+}
