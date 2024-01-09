@@ -1,12 +1,25 @@
 <header class="site-header" role="banner">
 
+  <style type="text/css" media="screen">
+
+    .logo {
+      float: left;
+      margin-left: 28px;
+      font-size: 1.5em;
+      height: 30px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      width: 10%;
+    }
+
+  </style>
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
+    <a class="logo" rel="author" href="{{ "/" | relative_url }}">
+      <img src="/assets/images/favicon.JPG"/>
     </a>
-    <img src="/assets/images/favicon.JPG" style="position:relative; width: 10%; border-color: black;"/>
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />

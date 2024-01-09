@@ -35,5 +35,5 @@ layout: page
 
 <div class="container_image">
     <img src="/assets/images/Dustin.JPG" alt="Dustin" style="width:100%;">
-    <div class="centered">WELCOME TO COCOBOYS</div>
+    <div class="centered">TEXT?</div>
 </div>

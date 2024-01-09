@@ -7,11 +7,12 @@ permalink: /about/
     
     h1{
         text-align: center;
-        border: 1.5px solid black;
-        font-style: italic;
+        /* border: 1.5px solid black; */
+        /* font-style: italic; */
     }
     
     .about-img-container {
+        border: 2px solid black;
         display: flex;
         position: relative;
         color: white;
@@ -26,6 +27,7 @@ permalink: /about/
     }
     
     .container {
+        background-color: lightgray;
         padding: 1rem 1rem 1rem 1rem;
         border: 1.5px solid black;
         margin: 1rem 1rem 1rem 1rem;
