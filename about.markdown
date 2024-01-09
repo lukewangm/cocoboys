@@ -5,12 +5,6 @@ permalink: /about/
 ---
 <style type="text/css" media="screen">
     
-    h1{
-        text-align: center;
-        /* border: 1.5px solid black; */
-        /* font-style: italic; */
-    }
-    
     .about-img-container {
         border: 2px solid black;
         display: flex;
