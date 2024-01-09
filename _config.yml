@@ -20,7 +20,7 @@
 
 title: Cocoboys
 email: temp@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://cocoboys.netlify.app/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: cocoboysnyc
 
