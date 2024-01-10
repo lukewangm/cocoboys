@@ -96,7 +96,6 @@ h1 {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  /* grid-template-columns: auto auto auto; */
   padding: 10px;
 }
 
@@ -150,10 +149,3 @@ h1 {
 .flip-card:hover .flip-card-back {
   opacity: 1;
 }
-/* 
-.wrapper {
-  position: fixed;
-}
-div {
-  border: 1px solid #000000;
-} */
