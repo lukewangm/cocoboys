@@ -119,6 +119,7 @@ h1 {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
+
 .flip-card {
   overflow: hidden;
   border-radius: 5px;
@@ -150,10 +151,3 @@ h1 {
 .flip-card:hover .flip-card-back {
   opacity: 1;
 }
-/* 
-.wrapper {
-  position: fixed;
-}
-div {
-  border: 1px solid #000000;
-} */
