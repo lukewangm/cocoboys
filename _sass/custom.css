@@ -3,7 +3,9 @@ h1 {
 }
 
 .about-img-container{
-  width: 70%;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1.5px solid black;
 }
 
 .container_image {
@@ -28,10 +30,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 60px
-}
-
-.site-nav {
-  position: fixed;
 }
 
 .container {
