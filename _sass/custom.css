@@ -1,10 +1,10 @@
-.post-list-heading{
+h1 {
   text-align: center;
 }
 
-.about-img-container{
+/* .about-img-container{
   width: 70%;
-}
+} */
 
 .container_image {
   position: relative;
@@ -30,12 +30,125 @@
   font-size: 60px
 }
 
-.site-nav {
+/* .site-nav {
   position: fixed;
-}
+} */
 
 .container {
   padding: 1rem 1rem 1rem 1rem;
   border: 1.5px solid black;
   margin: 1rem 1rem 1rem 1rem;
 }
+
+.grey-container {
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1.5px solid black;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.description {
+  text: white;
+  white-space:pre-wrap;
+  display: block;
+  position: absolute;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.card{
+  border-radius: 5px;
+  background-color: lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1.5px solid black;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  padding: 0 1rem;
+}
+
+.about-img-container {
+  max-width: 20rem;
+  min-width: 15rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  /* grid-template-columns: auto auto auto; */
+  padding: 10px;
+}
+
+.txt_container{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.flavor_container{
+  border-radius: 5px;
+  background-color: lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1.5px solid black;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.flavor_container:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card {
+  position: relative;
+  text-align: center;
+  border: 1px solid black;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.flip-card-front {
+  display: relative;
+  width: 100%;
+  height: auto;
+}
+
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightgray;
+}
+
+.flip-card:hover .flip-card-back {
+  opacity: 1;
+}
+
