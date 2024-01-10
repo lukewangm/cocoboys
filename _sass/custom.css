@@ -47,7 +47,6 @@ h1 {
 }
 
 .description {
-  text: white;
   white-space:pre-wrap;
   display: block;
   position: absolute;
