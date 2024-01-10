@@ -15,13 +15,15 @@ permalink: /about/
     }
 
     .description {
+        text: white;
         white-space:pre-wrap;
         display: block;
         position: absolute;
     }
     
     .container {
-        background-color: lightgray;
+        border-radius: 5px;
+        background-color: lightgrey;
         padding: 1rem 1rem 1rem 1rem;
         border: 1.5px solid black;
         margin: 1rem 1rem 1rem 1rem;
