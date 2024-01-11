@@ -10,7 +10,6 @@ permalink: /about/
         ..
         ..
         ..
-        branch testing 1
         </p>
     </div>
     <div class="about-img-container" >
