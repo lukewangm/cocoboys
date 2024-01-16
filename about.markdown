@@ -10,7 +10,6 @@ permalink: /about/
         ..
         ..
         ..
-        ..
         </p>
     </div>
     <div class="about-img-container" >
