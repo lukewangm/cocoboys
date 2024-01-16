@@ -156,3 +156,7 @@ h1 {
 .site-nav{
   z-index: 2;
 }
+
+grid{
+  border: 1px solid blue;
+}
